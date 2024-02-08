@@ -8,13 +8,13 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
 */
 
 tbody tr:nth-child(odd) {
-    background-color: blue;
-    color: white
+    background-color: coral;
+    color: black
 }
 
 tbody tr:nth-child(even) {
-    background-color: black;
-    color: white
+    background-color: burlywood;
+    color: black
 }
 
 body {
@@ -22,6 +22,7 @@ body {
     box-sizing: border-box;
     font-family: sans-serif;
     padding: 90px 20px 0;
+    background-color: lightpink;
 }
 
 .header {
@@ -29,8 +30,8 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: 90px;
-    background-color: #076af0;
+    height: 200px;
+    background-color: green;
 }
 
 .logo {
@@ -44,6 +45,7 @@ body {
     justify-content: space-between;
     max-width: 992px;
     margin: 0 auto;
+    background-color: green;
 }
 
 .nav-link {
@@ -62,6 +64,7 @@ body {
     margin: 0 10px;
     line-height: 90px;
     width: max-content;
+    background-color: green;
     
 }
 
@@ -82,7 +85,7 @@ body {
     left: 0;
     width: 20%;
     height: 75%;
-    background-color: aqua;
+    background-color: aquamarine;
 }
 
 .section {
@@ -91,7 +94,7 @@ body {
     left: 20%;
     width: 80%;
     height: 75%;
-    background-color: greenyellow;
+    background-color: khaki;
     overflow-y: scroll;
 }
 
